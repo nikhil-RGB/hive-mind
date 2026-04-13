@@ -1,5 +1,10 @@
 # hive_mind
 
+### Developer's note: 
+
+This project is a personal one, born from years of observing the less flattering patterns of human social behavior. It's my attempt to model and understand the mechanisms behind reputation, social pressure, and the quiet cruelties that groups inflict on individuals. The simulation is deliberately reductive — a gross oversimplification on the surface — but the core dynamics it captures are anything but. I intend to refine the mechanics over time. Consider this a work in progress and a thought experiment.
+
+
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
 
 This project aims at dissecting and studying certain negative aspects of society via a modified cellular automaton wherein each student is a cell unit, having two values- repuatation and morale.
