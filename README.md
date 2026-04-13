@@ -21,3 +21,4 @@ Breif wiorking summary:
 - There is also a global morale value that is proportional to the whole system's morale.
 - The system can have a one-time "nexus event" where targeted bullying of a low morale and reputation unit can cause them to exit the system by committing suicide, leading to a severe 
   drop in the perpetrator's reputation and the system's global morale.
+  - In rare cases, a low morale and low reputation unit that was previously high morale may start attacking units nearby, leading to multiple unit deaths in it's immediate vicinity, including itself
