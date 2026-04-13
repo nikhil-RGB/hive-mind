@@ -2,8 +2,8 @@
 
 ### Developer's note: 
 
-This project is a personal one, born from years of observing the less flattering patterns of human social behavior. It's my attempt to model and understand the mechanisms behind reputation, social pressure, and the quiet cruelties that groups inflict on individuals. The simulation is deliberately reductive — a gross oversimplification on the surface — but the core dynamics it captures are anything but. I intend to refine the mechanics over time. Consider this a work in progress and a thought experiment.
-
+This project is a personal one, born from years of observing the less flattering patterns of human social behavior. It's my attempt to model and understand the mechanisms behind reputation, social pressure, and the quiet cruelties that groups inflict on individuals. The simulation is deliberately reductive, a gross oversimplification on the surface, but the core dynamics it captures are anything but. I intend to refine the mechanics over time. Consider this a work in progress and a thought experiment.
+地獄で腐る
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
 
@@ -49,4 +49,4 @@ Breif wiorking summary:
 | Event Name Template | Internal Name | Type | Trigger Conditions | Min Ticks in Degraded State | Probability Roll | Deaths Caused | Cause of Activator Death | Min Neighbor Deaths | Survivor Morale Effect | Survivor Reputation Effect | Global Morale Effect | Rarity |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | [A] couldn't take it anymore | Nexus Event | Inward | Activator morale ≤ 10, reputation ≤ 20; targeted by Targeted Harassment ≥ 3 times | 5 | 5% | 1 (activator only) | Self-inflicted | 0 | -30 (witnesses) | -20 (perpetrators) | -40 | Rare |
-| [A] snapped and took [B] and [C] with them, before [D] and [E] put a stop to it | Cascade Event | Outward | Activator morale ≤ 10, reputation ≤ 20; peak historical morale ≥ 70; morale drop ≥ 60 | 8 | 2% | 2–4 neighbors + activator | Killed by surviving neigh
+| [A] snapped and took [B] and [C] with them, before [D] and [E] put a stop to it | Cascade Event | Outward | Activator morale ≤ 10, reputation ≤ 20; peak historical morale ≥ 70; morale drop ≥ 60 | 8 | 2% | 2–4 neighbors + activator | Killed by surviving neighbour 
